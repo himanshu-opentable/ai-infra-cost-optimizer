@@ -1,0 +1,14 @@
+[project]
+name = "graphana-metric-analyzer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    # The client for communicating with Prometheus
+    "prometheus-api-client>=0.5.1",
+
+    # The MCP server framework you provided
+    # Note: Replace 'fastmcp' with the actual package name if it's different
+    "fastmcp",
+]
